@@ -1,0 +1,12 @@
+package com.MiruCucumber.org.pomanager;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+public class configreader {
+	public configreader() {
+	File fi = new File("src\\test\\java\\com\\MiruCucumber\\org\\properties\\config.properties");
+	FileInputStream fis = new FileInputStream(fi);
+	}
+	
+}

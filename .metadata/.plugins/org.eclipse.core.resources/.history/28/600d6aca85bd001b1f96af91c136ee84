@@ -1,0 +1,56 @@
+package com.cucumber.stepdefinition;
+
+import org.openqa.selenium.WebDriver;
+
+import com.cucumber.org.cucumber.baseclass;
+import com.cucumber.runner.Adacitinwebsite_runner;
+
+import cucumber.api.java.en.*;
+
+public class searchhotelpagesd extends baseclass {
+	public static WebDriver dr = Adacitinwebsite_runner.driver;
+	@When("^select location of the hotel$")
+	public void select_location_of_the_hotel() throws Throwable {
+	    
+	}
+
+	@When("^select hotel type$")
+	public void select_hotel_type() throws Throwable {
+	    
+	}
+
+	@When("^select room type$")
+	public void select_room_type() throws Throwable {
+	   
+	}
+
+	@When("^select number of rooms$")
+	public void select_number_of_rooms() throws Throwable {
+	    
+	}
+
+	@When("^enter \"([^\"]*)\" as Check in date$")
+	public void enter_as_Check_in_date(String arg1) throws Throwable {
+	   
+	}
+
+	@When("^enter \"([^\"]*)\" as Check out date$")
+	public void enter_as_Check_out_date(String arg1) throws Throwable {
+	    
+	}
+
+	@When("^select no of adults$")
+	public void select_no_of_adults() throws Throwable {
+	   
+	}
+
+	@When("^select number of childrens$")
+	public void select_number_of_childrens() throws Throwable {
+	    
+	}
+
+	@Then("^click search button$")
+	public void click_search_button() throws Throwable {
+	  
+	}
+}

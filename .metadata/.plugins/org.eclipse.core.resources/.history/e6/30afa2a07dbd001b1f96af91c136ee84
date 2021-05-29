@@ -1,0 +1,57 @@
+package com.cucumber.stepdefinition;
+
+public class searchhotelpagesd {
+	@When("^select location of the hotel$")
+	public void select_location_of_the_hotel() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^select hotel type$")
+	public void select_hotel_type() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^select room type$")
+	public void select_room_type() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^select number of rooms$")
+	public void select_number_of_rooms() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^enter \"([^\"]*)\" as Check in date$")
+	public void enter_as_Check_in_date(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^enter \"([^\"]*)\" as Check out date$")
+	public void enter_as_Check_out_date(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^select no of adults$")
+	public void select_no_of_adults() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^select number of childrens$")
+	public void select_number_of_childrens() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^click search button$")
+	public void click_search_button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+}

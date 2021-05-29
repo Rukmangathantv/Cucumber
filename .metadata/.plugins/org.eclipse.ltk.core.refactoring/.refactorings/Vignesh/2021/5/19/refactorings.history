@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;pomconcepts.package-info.java&apos; to &apos;pojo.java&apos;&#x0D;&#x0A;- Original project: &apos;Vignesh&apos;&#x0D;&#x0A;- Original element: &apos;pomconcepts.package-info.java&apos;&#x0D;&#x0A;- Renamed element: &apos;pomconcepts.pojo.java&apos;" description="Rename compilation unit &apos;package-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;pomconcepts{package-info.java" name="pojo.java" references="false" stamp="1620482250739" version="1.0"/>
+</session>

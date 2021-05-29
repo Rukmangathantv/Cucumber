@@ -1,0 +1,5 @@
+package com.adacitin.helper;
+
+public class FileReaderManager {
+
+}

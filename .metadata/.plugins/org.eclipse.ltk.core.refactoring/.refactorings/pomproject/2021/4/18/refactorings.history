@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;pomproject.login_pg.java&apos; to &apos;index_pg.java&apos;&#x0D;&#x0A;- Original project: &apos;pomproject&apos;&#x0D;&#x0A;- Original element: &apos;pomproject.login_pg.java&apos;&#x0D;&#x0A;- Renamed element: &apos;pomproject.index_pg.java&apos;" description="Rename compilation unit &apos;login_pg.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;pomproject{login_pg.java" name="index_pg.java" references="false" stamp="1619682859694" version="1.0"/>
+</session>

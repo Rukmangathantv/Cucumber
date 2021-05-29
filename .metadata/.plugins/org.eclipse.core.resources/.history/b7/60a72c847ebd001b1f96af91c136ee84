@@ -1,0 +1,17 @@
+package com.cucumber.stepdefinition;
+
+public class bookingconfirmationpagesd {
+	@When("^take screenshot after  confirmation done$")
+	public void take_screenshot_after_confirmation_done() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^click logout button$")
+	public void click_logout_button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+
+}

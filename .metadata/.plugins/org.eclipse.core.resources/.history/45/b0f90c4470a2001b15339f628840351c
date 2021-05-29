@@ -1,0 +1,36 @@
+package training;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class robot_google {
+	public static void main(String[] args) throws Throwable {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Desktop\\selenium\\driver\\chromedriver.exe");
+		WebDriver robo =new ChromeDriver();
+		robo.get("https://www.google.co.in/webhp");
+		WebElement apps = robo.findElement(By.className("gb_Xe"));
+		apps.click();
+		robo.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS );
+		Robot r = new Robot();
+	//	r.keyPress(KeyEvent.VK_TAB);
+		//r.keyPress(KeyEvent.VK_TAB);
+		//r.keyPress(KeyEvent.VK_TAB);
+		//r.keyPress(KeyEvent.VK_TAB);
+		r.keyPress(KeyEvent.VK_TAB);
+		r.keyPress(KeyEvent.VK_DOWN);
+		r.keyPress(KeyEvent.VK_ENTER);
+		
+		
+		
+	}
+	
+
+}

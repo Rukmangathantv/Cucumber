@@ -1,0 +1,9 @@
+package selesample;
+public class Sel_Edge_demo 
+{
+	public static void main(String args[])
+	{
+	  System.setProperty("webdriver.edge.driver","")
+	}
+
+}

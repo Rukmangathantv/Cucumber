@@ -1,0 +1,16 @@
+package com.adacitin.helper;
+
+import com.cucumber.pom.bookhotelpage;
+import com.cucumber.pom.bookingconfirmationpage;
+import com.cucumber.pom.loginpage;
+import com.cucumber.pom.searchhotelpage;
+import com.cucumber.pom.selecthotelpage;
+
+public class pomanager {
+	//loginpage lp= new loginpage();
+	private loginpage lp;
+	private searchhotelpage shp;
+	private selecthotelpage shp1;
+	private bookhotelpage bhp;
+	private bookingconfirmationpage bcp;
+}

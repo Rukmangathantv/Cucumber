@@ -1,0 +1,11 @@
+package com.MiruCucumber.org.pomanager;
+
+public class filereadermanager {
+	private filereadermanager() {
+
+	}
+	
+	configreader cr = new configreader();
+	
+
+}

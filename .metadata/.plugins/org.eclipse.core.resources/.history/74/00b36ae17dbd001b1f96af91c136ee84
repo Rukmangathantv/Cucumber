@@ -1,0 +1,15 @@
+package com.cucumber.stepdefinition;
+
+public class selecthotelpagesd {
+	@When("^Select the hotel$")
+	public void select_the_hotel() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^click continue button$")
+	public void click_continue_button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+}
